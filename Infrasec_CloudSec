@@ -1,0 +1,73 @@
+InfraSec Roadmap (Zero to Hero)
+│
+├── 1. Fundamentals of Networking and Security
+│   ├── TCP/IP Model
+│   ├── DNS, DHCP, IP Addressing
+│   ├── VPN, SSL/TLS, Firewalls
+│   └── Zero Trust Architecture
+│
+├── 2. Operating System Security
+│   ├── Linux Security
+│   │   ├── SSH, Firewall Configuration (UFW, IPTables)
+│   │   └── File Permissions and Auditing
+│   ├── Windows Security
+│   │   ├── Active Directory Security
+│   │   └── PowerShell Scripting for Security Automation
+│
+├── 3. Cloud Infrastructure Security
+│   ├── AWS
+│   │   ├── EC2 Security
+│   │   ├── S3 Bucket Security
+│   │   ├── IAM (Identity and Access Management)
+│   │   └── AWS Shield and WAF
+│   ├── Azure
+│   │   ├── VM Security
+│   │   └── Azure Security Center
+│   └── GCP (Google Cloud Platform)
+│       ├── GKE Security
+│       └── Google Cloud IAM
+│
+├── 4. Network Security
+│   ├── Firewalls and IDS/IPS
+│   │   ├── Tools: pfSense, Snort, Suricata
+│   ├── Network Segmentation
+│   ├── VPN and Remote Access Security
+│   └── Intrusion Detection Systems (IDS)
+│
+├── 5. Virtualization and Container Security
+│   ├── Virtual Machines (VM) Security
+│   ├── Docker Security
+│   │   ├── Docker Bench
+│   │   └── Seccomp, AppArmor, SELinux for Containers
+│   └── Kubernetes Security (K8s)
+│       ├── Pod Security Policies (PSPs)
+│       ├── Network Policies
+│       └── Tools: Falco, Kube-bench
+│
+├── 6. Identity and Access Management (IAM)
+│   ├── Active Directory Security
+│   ├── Multi-Factor Authentication (MFA)
+│   ├── SSO (Single Sign-On) Integration
+│   └── Role-Based Access Control (RBAC)
+│
+├── 7. Patch and Configuration Management
+│   ├── Automating Patches (Ansible, Puppet, Chef)
+│   └── Secure Configurations (CIS Benchmarks)
+│
+├── 8. Incident Response and Disaster Recovery
+│   ├── Incident Response Plan (IRP)
+│   ├── Forensic Investigation (Network, Disk)
+│   ├── Data Backup and Recovery
+│   └── Disaster Recovery Drills
+│
+├── 9. Security Monitoring and Logging
+│   ├── SIEM Tools
+│   │   ├── Splunk
+│   │   ├── ELK Stack (Elasticsearch, Logstash, Kibana)
+│   │   └── Graylog
+│   └── Continuous Monitoring (Nagios, Zabbix)
+│
+└── 10. Soft Skills and Communication
+    ├── Collaborating with IT Teams
+    ├── Documentation of Security Policies
+    └── Communication in Incident Response
