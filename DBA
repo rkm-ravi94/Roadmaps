@@ -1,0 +1,150 @@
+DBA Roadmap (Zero to Hero)
+│
+├── 1. Basics of OS and Networking
+│   ├── Operating Systems
+│   │   ├── Linux (Primary for database servers)
+│   │   ├── Windows Server (For MS SQL, Oracle)
+│   └── Networking
+│       ├── TCP/IP, Ports, Protocols
+│       ├── DNS and IP Management
+│       └── VPN, Proxy
+│
+├── 2. Fundamentals of Databases
+│   ├── Relational Databases
+│   │   ├── Concepts: Tables, Columns, Rows, Relationships
+│   │   ├── Database Normalization
+│   │   └── ACID Properties (Atomicity, Consistency, Isolation, Durability)
+│   ├── SQL Basics
+│   │   ├── SELECT, INSERT, UPDATE, DELETE
+│   │   ├── Joins (INNER, LEFT, RIGHT, FULL)
+│   │   ├── Subqueries, Views, Indexes
+│   │   └── Transactions, Locking
+│   └── NoSQL Basics (For non-relational databases)
+│       ├── Key-Value Stores (Redis)
+│       ├── Document Stores (MongoDB)
+│       ├── Columnar Stores (Cassandra)
+│       └── Graph Databases (Neo4j)
+│
+├── 3. Database Installation and Configuration
+│   ├── Relational Database Management Systems (RDBMS)
+│   │   ├── MySQL/MariaDB Installation
+│   │   ├── PostgreSQL Installation
+│   │   ├── Oracle Database Installation
+│   │   └── MS SQL Server Installation
+│   ├── Configuration
+│   │   ├── Default Settings vs. Customization
+│   │   ├── Memory, CPU, and Disk Configuration
+│   │   └── Performance Tuning (Buffer Pool, Query Cache)
+│   └── NoSQL Databases
+│       ├── MongoDB Installation
+│       ├── Cassandra Installation
+│       └── Redis Installation
+│
+├── 4. Backup and Recovery
+│   ├── Backup Strategies
+│   │   ├── Full, Differential, Incremental
+│   │   ├── Point-in-Time Recovery
+│   │   └── Backup Encryption and Compression
+│   ├── Tools for Backup
+│   │   ├── MySQLdump (for MySQL)
+│   │   ├── pg_dump (for PostgreSQL)
+│   │   ├── RMAN (for Oracle)
+│   │   ├── SQL Server Management Studio (for MS SQL)
+│   │   └── Third-Party Tools (e.g., Percona, Veeam)
+│   └── Disaster Recovery Planning
+│       ├── High Availability (HA) Strategies
+│       └── Testing and Documentation of Backup/Restore Process
+│
+├── 5. Database Security
+│   ├── Access Control
+│   │   ├── Role-Based Access Control (RBAC)
+│   │   ├── User Authentication (LDAP, Kerberos)
+│   │   └── Privilege Management (GRANT, REVOKE)
+│   ├── Data Encryption
+│   │   ├── At Rest (TDE - Transparent Data Encryption)
+│   │   ├── In Transit (SSL/TLS)
+│   └── Auditing and Compliance
+│       ├── Auditing Logs
+│       └── Compliance (GDPR, PCI DSS, HIPAA)
+│
+├── 6. Query Optimization and Performance Tuning
+│   ├── Query Optimization
+│   │   ├── Understanding Execution Plans
+│   │   ├── Index Optimization (B-Tree, Hash Indexes)
+│   │   ├── Query Refactoring and Best Practices
+│   │   └── Avoiding Common Pitfalls (e.g., N+1 Queries)
+│   ├── Performance Tuning
+│   │   ├── Database Caching (Query Cache, Buffer Pool)
+│   │   ├── Connection Pooling
+│   │   ├── Partitioning (Range, List, Hash)
+│   │   └── Table Compression
+│   └── Monitoring Tools
+│       ├── MySQL Workbench (MySQL)
+│       ├── pgAdmin (PostgreSQL)
+│       ├── Oracle Enterprise Manager
+│       ├── SQL Server Profiler
+│       └── Third-Party Tools (Percona Monitoring, SolarWinds)
+│
+├── 7. High Availability and Replication
+│   ├── Database Replication
+│   │   ├── Master-Slave Replication
+│   │   ├── Master-Master Replication
+│   │   └── Synchronous vs. Asynchronous Replication
+│   ├── High Availability (HA)
+│   │   ├── Clustering (MySQL Cluster, PostgreSQL Replication)
+│   │   ├── Failover Strategies
+│   │   └── Load Balancing
+│   └── Disaster Recovery
+│       ├── Hot, Warm, and Cold Standbys
+│       └── Automated Failover with Tools (e.g., Pacemaker, Corosync)
+│
+├── 8. Cloud Databases
+│   ├── AWS
+│   │   ├── RDS (MySQL, PostgreSQL, Oracle, SQL Server)
+│   │   ├── DynamoDB (NoSQL)
+│   │   └── Aurora (Managed Database Service)
+│   ├── Azure
+│   │   ├── Azure SQL Database
+│   │   ├── Cosmos DB (NoSQL)
+│   └── GCP (Google Cloud Platform)
+│       ├── Cloud SQL (MySQL, PostgreSQL, SQL Server)
+│       └── Firestore (NoSQL)
+│
+├── 9. Database Monitoring and Maintenance
+│   ├── Health Checks
+│   │   ├── Checking Resource Usage (Memory, CPU, Disk)
+│   │   ├── Database Size and Growth Patterns
+│   ├── Automation
+│   │   ├── Automating Backups and Restores
+│   │   ├── Automating Routine Tasks (Scripts, Cron Jobs)
+│   └── Monitoring Tools
+│       ├── Zabbix
+│       ├── Prometheus + Grafana
+│       ├── Nagios
+│       ├── Percona Monitoring and Management (PMM)
+│       └── CloudWatch (AWS)
+│
+├── 10. Database Scaling
+│   ├── Vertical Scaling
+│   │   └── Scaling Up Resources (CPU, RAM)
+│   ├── Horizontal Scaling
+│   │   ├── Sharding
+│   │   ├── Read Replicas
+│   │   └── Database Clustering
+│   └── Distributed Databases
+│       ├── MongoDB Sharding
+│       └── Cassandra Clusters
+│
+├── 11. DevOps and DBA Collaboration
+│   ├── Infrastructure as Code (IaC) for Databases
+│   │   ├── Terraform
+│   │   ├── Ansible
+│   └── CI/CD Pipelines for Databases
+│       ├── Schema Migration Tools (Flyway, Liquibase)
+│       └── Automated Testing and Rollbacks
+│
+├── 12. Soft Skills and Communication
+│   ├── Documentation (SOPs for DB Management)
+│   ├── Collaboration with Dev and Ops Teams
+│   ├── Incident Response and Root Cause Analysis
+│   └── Security and Compliance Reporting
