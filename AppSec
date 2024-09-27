@@ -1,0 +1,87 @@
+AppSec Roadmap (Zero to Hero)
+│
+├── 1. Fundamentals of Security
+│   ├── Basic Security Concepts
+│   │   ├── CIA Triad (Confidentiality, Integrity, Availability)
+│   │   ├── Authentication vs. Authorization
+│   │   └── Encryption (Symmetric, Asymmetric)
+│   └── Networking Basics
+│       ├── TCP/IP, DNS, HTTPS
+│       ├── HTTP Methods and Status Codes
+│       └── SSL/TLS and Certificates
+│
+├── 2. Programming Knowledge
+│   ├── Secure Coding Practices
+│   │   └── OWASP Top 10 Security Vulnerabilities
+│   ├── Languages
+│   │   ├── Python
+│   │   ├── JavaScript (Node.js)
+│   │   └── Java/.NET (Common Enterprise Languages)
+│   ├── Web Development Basics
+│   │   ├── HTTP/HTTPS Protocols
+│   │   └── Frontend/Backend Interactions (REST, API)
+│   └── Secure Code Reviews
+│
+├── 3. OWASP Top 10
+│   ├── Injection Attacks (SQLi, NoSQLi, XSS)
+│   ├── Broken Authentication
+│   ├── Sensitive Data Exposure
+│   ├── XML External Entities (XXE)
+│   ├── Broken Access Control
+│   ├── Security Misconfiguration
+│   ├── Cross-Site Scripting (XSS)
+│   ├── Insecure Deserialization
+│   └── Insufficient Logging & Monitoring
+│
+├── 4. Threat Modeling and Secure Design
+│   ├── STRIDE Threat Model
+│   ├── Data Flow Diagrams (DFDs)
+│   ├── Attack Trees
+│   ├── Abuse Cases
+│   └── Security by Design Principles
+│
+├── 5. Application Security Testing
+│   ├── Static Application Security Testing (SAST)
+│   │   └── Tools: SonarQube, Checkmarx, Fortify
+│   ├── Dynamic Application Security Testing (DAST)
+│   │   └── Tools: OWASP ZAP, Burp Suite, Veracode
+│   ├── Interactive Application Security Testing (IAST)
+│   │   └── Tools: Contrast Security
+│   └── Software Composition Analysis (SCA)
+│       └── Tools: Snyk, WhiteSource, OWASP Dependency-Check
+│
+├── 6. Secure Software Development Life Cycle (SDLC)
+│   ├── Security in Agile and DevOps
+│   ├── Shift-Left Security
+│   ├── Security Requirements in SDLC
+│   ├── CI/CD Security Integration
+│   └── Security Automation in Pipelines
+│
+├── 7. Identity and Access Management (IAM)
+│   ├── OAuth 2.0
+│   ├── OpenID Connect (OIDC)
+│   ├── SAML (Security Assertion Markup Language)
+│   └── Role-Based Access Control (RBAC)
+│
+├── 8. Secure APIs
+│   ├── OWASP API Security Top 10
+│   ├── Securing REST APIs
+│   └── OAuth, JWT (JSON Web Tokens)
+│
+├── 9. Mobile Security
+│   ├── OWASP Mobile Top 10
+│   ├── iOS Security
+│   ├── Android Security
+│   └── Mobile App Penetration Testing
+│
+├── 10. Web Application Penetration Testing
+│   ├── Reconnaissance (Subdomains, IPs)
+│   ├── Exploiting Injection Attacks
+│   ├── File Upload and Inclusion Attacks
+│   ├── Exploiting Broken Access Controls
+│   └── Tools: Burp Suite, OWASP ZAP, Nmap
+│
+└── 11. Soft Skills and Communication
+    ├── Collaborating with Developers
+    ├── Writing Secure Coding Guidelines
+    └── Incident Handling and Root Cause Analysis
