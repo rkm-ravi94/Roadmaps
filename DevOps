@@ -1,0 +1,146 @@
+DevOps Roadmap (Zero to Hero)
+│
+├── 1. Basics of OS and Networking
+│   ├── Linux
+│   │   ├── File Systems
+│   │   ├── Basic Shell Commands
+│   │   ├── Process Management
+│   │   └── Permissions and Users
+│   └── Networking Concepts
+│       ├── TCP/IP, UDP
+│       ├── DNS, DHCP
+│       ├── IP Addresses and Subnetting
+│       ├── Ports and Protocols
+│       └── VPN, Proxy
+│
+├── 2. Version Control
+│   ├── Git (Basic to Advanced)
+│   │   ├── Git Branching
+│   │   ├── Merging and Rebasing
+│   │   ├── Pull Requests and Code Reviews
+│   │   └── Git Workflows (e.g., Gitflow, GitHub Flow)
+│   └── Git Platforms
+│       ├── GitHub
+│       ├── GitLab
+│       └── Bitbucket
+│
+├── 3. Scripting and Automation
+│   ├── Bash Scripting
+│   ├── Python or Go (Choose one)
+│   │   ├── Automation Scripts
+│   │   ├── File Management
+│   │   └── REST API Calls
+│   └── PowerShell (for Windows environments)
+│
+├── 4. Continuous Integration (CI)
+│   ├── CI Concepts
+│   │   └── Automated Testing, Build Pipelines
+│   ├── CI Tools
+│   │   ├── Jenkins
+│   │   ├── GitLab CI
+│   │   └── CircleCI / TravisCI
+│   └── Pipelines and Automation
+│       ├── Writing Jenkinsfiles (or equivalent)
+│       └── Pipeline as Code
+│
+├── 5. Continuous Delivery and Deployment (CD)
+│   ├── CD Concepts
+│   │   ├── Blue-Green Deployments
+│   │   ├── Canary Releases
+│   │   └── Feature Toggles
+│   ├── CD Tools
+│   │   ├── Jenkins
+│   │   ├── Spinnaker
+│   │   └── ArgoCD
+│   └── Deployment Strategies
+│       └── Zero-Downtime Deployments
+│
+├── 6. Configuration Management
+│   ├── Concepts
+│   │   ├── Infrastructure as Code (IaC)
+│   │   └── Immutable Infrastructure
+│   ├── Tools
+│   │   ├── Ansible
+│   │   ├── Puppet
+│   │   └── Chef
+│   └── Writing Playbooks/Manifests
+│
+├── 7. Infrastructure as Code (IaC)
+│   ├── Tools
+│   │   ├── Terraform
+│   │   ├── CloudFormation (AWS)
+│   │   └── Pulumi
+│   ├── Provisioning Infrastructure
+│   ├── Terraform Modules and State Management
+│   └── Integrating IaC with CI/CD Pipelines
+│
+├── 8. Cloud Providers
+│   ├── AWS
+│   │   ├── EC2, S3, RDS, VPC
+│   │   ├── IAM (Identity and Access Management)
+│   │   ├── Lambda
+│   │   └── CloudWatch / CloudTrail
+│   ├── Azure
+│   │   ├── Virtual Machines, Storage Accounts
+│   │   ├── Azure DevOps
+│   │   └── Azure Functions
+│   └── GCP (Google Cloud Platform)
+│       ├── Compute Engine, Cloud Storage
+│       ├── IAM and Roles
+│       └── Google Kubernetes Engine (GKE)
+│
+├── 9. Containers and Orchestration
+│   ├── Docker
+│   │   ├── Dockerfile
+│   │   ├── Docker Compose
+│   │   ├── Image Management
+│   │   └── Docker Networking and Volumes
+│   ├── Kubernetes (K8s)
+│   │   ├── Pods, Deployments, Services
+│   │   ├── Namespaces and ConfigMaps
+│   │   ├── Helm Charts
+│   │   └── Ingress and Load Balancing
+│   └── Container Registries
+│       ├── DockerHub
+│       ├── ECR (AWS)
+│       └── GCR (GCP)
+│
+├── 10. Monitoring and Logging
+│   ├── Monitoring Tools
+│   │   ├── Prometheus
+│   │   ├── Grafana
+│   │   └── Datadog
+│   ├── Logging Tools
+│   │   ├── ELK Stack (Elasticsearch, Logstash, Kibana)
+│   │   ├── Fluentd
+│   │   └── Graylog
+│   └── Alerts and Dashboards
+│
+├── 11. Security and Compliance
+│   ├── Security Best Practices
+│   │   ├── Secrets Management
+│   │   ├── IAM Policies
+│   │   └── Secure Networking (e.g., VPN, VPC)
+│   ├── Compliance
+│   │   ├── CIS Benchmarks
+│   │   └── Cloud Compliance (e.g., PCI-DSS, HIPAA)
+│   ├── DevSecOps Integration
+│   │   ├── SAST (Static Analysis Security Testing)
+│   │   └── DAST (Dynamic Analysis Security Testing)
+│   └── Tools
+│       ├── HashiCorp Vault
+│       ├── Aqua Security
+│       └── Falco
+│
+├── 12. Site Reliability Engineering (SRE) Practices
+│   ├── Monitoring and Alerting
+│   ├── Error Budgets and SLAs
+│   ├── Incident Response
+│   ├── Reliability Engineering Metrics
+│   └── Automation of Operations Tasks
+│
+└── 13. Soft Skills and Communication
+    ├── Collaboration with Dev and Ops Teams
+    ├── Communication Tools (Slack, Teams)
+    ├── Understanding Agile and Scrum Methodologies
+    └── Leadership and Decision-Making Skills
